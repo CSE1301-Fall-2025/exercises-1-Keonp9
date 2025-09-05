@@ -8,8 +8,8 @@ public class E02CalculateMoney {
 		int numQuarters = 3;
 		int numNickels = 8;
 
-		int total = numDimes * 10 + numQuarters + 25;
+		double total = numDimes * .10 + numQuarters * .25 + numNickels * .05;
 
-		System.out.println("Total = " + total);
+		System.out.println("Total = $" + total);
 	}
 }
