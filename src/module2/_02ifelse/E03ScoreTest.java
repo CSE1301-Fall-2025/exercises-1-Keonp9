@@ -8,5 +8,8 @@ public class E03ScoreTest {
 		if (score <= 9) {
 			System.out.println("Try for a higher score!");
 		}
+		else {
+			System.out.println("Good job!");
+		}
 	}
 }
