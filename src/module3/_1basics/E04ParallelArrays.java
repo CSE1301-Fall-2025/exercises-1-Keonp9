@@ -7,12 +7,15 @@ public class E04ParallelArrays {
 	//Can you change the arrays so that they have 6 elements and add your name and score and print them out? 
 	public static void main(String[] args) {
 		// declare, create, initialize arrays
-		int[ ] highScores = {99,98,98,88,68};
-		String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia"};
-
+		int[ ] highScores = {99,98,98,88,68,90};
+		String[ ] names = {"Jamal", "Emily", "Destiny", "Mateo", "Sofia","Keon"};
+		highScores[4] = 97;
+		int index = 0;
 		// Print corresponding names and scores
-		System.out.println(names[0] + " has a score of " + highScores[0]);
-		System.out.println(names[1] + " has a score of " + highScores[1]);
+		while (index <=5) {
+			System.out.println(names[index] + " has a score of " + highScores[index]);
+			index++;
+		}
 	}
 }
 
